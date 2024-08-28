@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>ERICtaf_selenium_grid_extensions</artifactId>
+        <groupId>com.ericsson.cifwk</groupId>
+        <version>1.141-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>pom</packaging>
+
+    <artifactId>node-extensions</artifactId>
+    <name>Selenium Node Extensions</name>
+
+    <modules>
+        <module>file-extension</module>
+        <module>sikuli-extension</module>
+        <module>all-node-extensions</module>
+    </modules>
+
+</project>
